@@ -132,7 +132,6 @@ public class Item {
 		this.itemDetail = itemDetail;
 	}
 	
-	//update seen coba
 	public int updateSeen(int seenChanged) {
 		return seenChanged += 1;
 	}
